@@ -24,6 +24,14 @@ This repository is a practical, security-first reference library developed by **
 > [!IMPORTANT]
 > **Maturity: Reference designs — not yet lab validated.** Diagrams and test plans are architectural starting points, not representations of a deployed or independently verified environment. Validate service versions, regional support, licensing, preview status, and all control claims before production use.
 
+## Featured release · Secure Enterprise RAG V2
+
+**[Explore Version 2 — trust boundaries, Azure controls, MITRE ATLAS and security tests](01-secure-enterprise-rag/README.md)**
+
+[![Secure RAG V2 trust-boundary diagram](assets/01-rag-trust-boundaries.svg)](01-secure-enterprise-rag/README.md)
+
+**New:** Seven documented trust boundaries, retrieval authorization decisions, permissions freshness, Azure service controls, threat mappings, a test runbook, and a standard-library Python authorization example. Azure lab validation remains pending.
+
 ## Architecture library
 
 <table>
