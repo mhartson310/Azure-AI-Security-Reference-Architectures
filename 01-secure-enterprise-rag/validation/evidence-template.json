@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "architecture": "secure-enterprise-rag-v2",
+  "execution_status": "NOT_RUN",
+  "test_id": "RAG-01",
+  "test_date_utc": null,
+  "engineer_alias": null,
+  "environment_alias": "synthetic-lab-only",
+  "service_region": null,
+  "service_versions": {
+    "search_api": null,
+    "foundry": null,
+    "app_commit": null
+  },
+  "authorization_mode": "app_managed_security_filters",
+  "expected_behavior": "Unauthorized synthetic document is not retrieved, included in model context, emitted in response, cited or cached.",
+  "observed_behavior": null,
+  "pass_fail": "NOT_RUN",
+  "identity_aliases": [
+    "alice-lab",
+    "bob-lab"
+  ],
+  "document_ids_are_synthetic": true,
+  "correlation_id": null,
+  "permission_change_timestamp_utc": null,
+  "authorization_decision": null,
+  "evidence_paths_redacted": [],
+  "residual_risks": [],
+  "remediation_action": null
+}
