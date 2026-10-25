@@ -1,0 +1,2 @@
+# Light visual design system
+White and ice-blue canvas; Azure blue `#0078D4`; navy `#102A43`; light cyan `#EAF6FF`; green `#0E9B75` for validated outcomes only; red `#C83F46` for risk or failure. Use Segoe UI/sans-serif fonts, rounded cards, blue headers, consistent left-to-right arrows, separate control plane, readable labels, and 16:9 scalable SVG masters. Technical truth takes precedence over decorative visuals.
