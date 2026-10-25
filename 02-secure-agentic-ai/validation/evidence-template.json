@@ -1,0 +1,23 @@
+{
+  "schema_version": "2.0",
+  "architecture": "secure-agentic-ai-v2",
+  "platform": "copilot-studio OR foundry-agent-service",
+  "test_id": "AG-01",
+  "status": "NOT_RUN",
+  "test_timestamp_utc": null,
+  "region": null,
+  "platform_version": null,
+  "actor_alias": "alice-synthetic",
+  "agent_alias": "agent-synthetic",
+  "tool_alias": "tool-synthetic",
+  "operation": "update_case",
+  "target_alias": "test-case-001",
+  "policy_version": null,
+  "approval_artifact_hash": null,
+  "correlation_id": null,
+  "expected": "policy denies unauthorized action",
+  "observed": null,
+  "evidence_redacted": [],
+  "residual_risk": [],
+  "remediation": null
+}
