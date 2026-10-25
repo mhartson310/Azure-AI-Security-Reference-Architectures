@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-label="Azure AI Security Reference Architectures: Secure RAG, Agentic AI, Governed MLOps, AI FinOps">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".55" stop-color="#F1F9FF"/><stop offset="1" stop-color="#DDF0FF"/></linearGradient>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0069BA"/><stop offset="1" stop-color="#1499F0"/></linearGradient>
+  <linearGradient id="navy" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0B2546"/><stop offset="1" stop-color="#164C80"/></linearGradient>
+  <filter id="shadow" x="-25%" y="-25%" width="150%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="11" flood-color="#256FA6" flood-opacity=".12"/></filter>
+</defs>
+<rect width="1600" height="620" fill="url(#bg)"/>
+<g opacity=".55" fill="#C7E7FC">
+  <circle cx="1425" cy="42" r="154"/><circle cx="1530" cy="145" r="152"/><circle cx="1179" cy="5" r="94"/>
+  <circle cx="-30" cy="620" r="176"/><circle cx="155" cy="635" r="131"/>
+</g>
+<g opacity=".4" fill="none" stroke="#B4DFF8" stroke-width="5"><path d="M960 110Q1090 12 1230 95"/><path d="M1170 185Q1320 130 1570 210"/><path d="M0 306C410 262 714 319 1030 286S1434 266 1600 292"/></g>
+<rect x="66" y="42" rx="12" width="58" height="58" fill="url(#blue)"/>
+<path d="M84 78l9-11 11 10 12-16M86 87h33" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="140" y="67" font-family="Segoe UI,Arial,sans-serif" font-weight="800" font-size="20" fill="#102A43" letter-spacing="2.2">THE CLOUD SECURITY</text>
+<text x="140" y="92" font-family="Segoe UI,Arial,sans-serif" font-weight="800" font-size="20" fill="#0078D4" letter-spacing="2.2">ARCHITECT</text>
+<rect x="1194" y="40" rx="23" width="335" height="48" fill="#FFFFFF" stroke="#B6DFF8" stroke-width="2"/>
+<circle cx="1223" cy="64" r="9" fill="#0E9B75"/>
+<text x="1242" y="72" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#164C80">AZURE • SECURITY • AI</text>
+<text x="64" y="190" font-family="Segoe UI,Arial,sans-serif" font-size="65" font-weight="800" letter-spacing="-2" fill="#102A43">Azure AI Security</text>
+<text x="64" y="263" font-family="Segoe UI,Arial,sans-serif" font-size="65" font-weight="800" letter-spacing="-2" fill="#0078D4">Reference Architectures</text>
+<text x="68" y="313" font-family="Segoe UI,Arial,sans-serif" font-size="25" fill="#315F85" font-weight="500">SECURE  ·  GOVERN  ·  VALIDATE  ·  OPTIMIZE</text>
+<g font-family="Segoe UI,Arial,sans-serif">
+<g filter="url(#shadow)"><rect x="55" y="358" width="353" height="198" rx="24" fill="#FFFFFF" stroke="#B4DEFA" stroke-width="2"/></g>
+<rect x="55" y="358" width="353" height="60" rx="23" fill="url(#navy)"/>
+<rect x="55" y="386" width="353" height="32" fill="url(#navy)"/>
+<circle cx="96" cy="388" r="20" fill="#0078D4"/><text x="96" y="396" font-size="17" fill="#FFFFFF" text-anchor="middle" font-weight="800">01</text>
+<text x="131" y="394" font-size="17" font-weight="800" fill="#FFFFFF">SECURE ENTERPRISE RAG</text>
+<rect x="79" y="447" width="57" height="62" rx="16" fill="#E7F4FD"/>
+<path d="M94 476h28M108 462v28" stroke="#0078D4" stroke-width="5" stroke-linecap="round"/>
+<text x="151" y="472" font-size="22" font-weight="700" fill="#102A43">Identity-aware retrieval</text>
+<text x="151" y="501" font-size="19" fill="#416A88">Document authorization</text>
+<rect x="76" y="531" width="311" height="5" rx="3" fill="#0078D4" opacity=".82"/><g filter="url(#shadow)"><rect x="434" y="358" width="353" height="198" rx="24" fill="#FFFFFF" stroke="#B4DEFA" stroke-width="2"/></g>
+<rect x="434" y="358" width="353" height="60" rx="23" fill="url(#navy)"/>
+<rect x="434" y="386" width="353" height="32" fill="url(#navy)"/>
+<circle cx="475" cy="388" r="20" fill="#7352C9"/><text x="475" y="396" font-size="17" fill="#FFFFFF" text-anchor="middle" font-weight="800">02</text>
+<text x="510" y="394" font-size="17" font-weight="800" fill="#FFFFFF">SECURE AGENTIC AI</text>
+<rect x="458" y="447" width="57" height="62" rx="16" fill="#E7F4FD"/>
+<path d="M473 476h28M487 462v28" stroke="#7352C9" stroke-width="5" stroke-linecap="round"/>
+<text x="530" y="472" font-size="22" font-weight="700" fill="#102A43">Scoped tool execution</text>
+<text x="530" y="501" font-size="19" fill="#416A88">Approvals & containment</text>
+<rect x="455" y="531" width="311" height="5" rx="3" fill="#7352C9" opacity=".82"/><g filter="url(#shadow)"><rect x="813" y="358" width="353" height="198" rx="24" fill="#FFFFFF" stroke="#B4DEFA" stroke-width="2"/></g>
+<rect x="813" y="358" width="353" height="60" rx="23" fill="url(#navy)"/>
+<rect x="813" y="386" width="353" height="32" fill="url(#navy)"/>
+<circle cx="854" cy="388" r="20" fill="#058F9F"/><text x="854" y="396" font-size="17" fill="#FFFFFF" text-anchor="middle" font-weight="800">03</text>
+<text x="889" y="394" font-size="17" font-weight="800" fill="#FFFFFF">GOVERNED AI / MLOPS</text>
+<rect x="837" y="447" width="57" height="62" rx="16" fill="#E7F4FD"/>
+<path d="M852 476h28M866 462v28" stroke="#058F9F" stroke-width="5" stroke-linecap="round"/>
+<text x="909" y="472" font-size="22" font-weight="700" fill="#102A43">Protected models & data</text>
+<text x="909" y="501" font-size="19" fill="#416A88">Pipeline release gates</text>
+<rect x="834" y="531" width="311" height="5" rx="3" fill="#058F9F" opacity=".82"/><g filter="url(#shadow)"><rect x="1192" y="358" width="353" height="198" rx="24" fill="#FFFFFF" stroke="#B4DEFA" stroke-width="2"/></g>
+<rect x="1192" y="358" width="353" height="60" rx="23" fill="url(#navy)"/>
+<rect x="1192" y="386" width="353" height="32" fill="url(#navy)"/>
+<circle cx="1233" cy="388" r="20" fill="#15935F"/><text x="1233" y="396" font-size="17" fill="#FFFFFF" text-anchor="middle" font-weight="800">04</text>
+<text x="1268" y="394" font-size="17" font-weight="800" fill="#FFFFFF">AZURE AI FINOPS</text>
+<rect x="1216" y="447" width="57" height="62" rx="16" fill="#E7F4FD"/>
+<path d="M1231 476h28M1245 462v28" stroke="#15935F" stroke-width="5" stroke-linecap="round"/>
+<text x="1288" y="472" font-size="22" font-weight="700" fill="#102A43">Spend & unit economics</text>
+<text x="1288" y="501" font-size="19" fill="#416A88">Budgeting and optimization</text>
+<rect x="1213" y="531" width="311" height="5" rx="3" fill="#15935F" opacity=".82"/>
+</g>
+<text x="67" y="595" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#537A98">Enterprise design patterns  |  Reference stage: not yet lab-validated  |  Independent technical project</text>
+</svg>
