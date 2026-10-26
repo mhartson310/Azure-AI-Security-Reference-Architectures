@@ -1,0 +1,22 @@
+{
+  "schema_version": "2.0",
+  "architecture": "governed-ai-mlops-v2",
+  "test_id": "ML-01",
+  "status": "NOT_RUN",
+  "timestamp_utc": null,
+  "environment_alias": "synthetic-lab",
+  "workspace_alias": null,
+  "endpoint_type": null,
+  "service_region": null,
+  "job_identity_alias": null,
+  "model_digest_sha256": null,
+  "pipeline_commit_alias": null,
+  "policy_revision": null,
+  "expected": "unauthorized dataset access denied",
+  "observed": null,
+  "azure_activity_log_reference_redacted": null,
+  "correlation_id": null,
+  "evidence_redacted": [],
+  "residual_risk": [],
+  "remediation": null
+}
