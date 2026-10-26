@@ -32,6 +32,15 @@ This repository is a practical, security-first reference library developed by **
 
 **New:** Seven documented trust boundaries, retrieval authorization decisions, permissions freshness, Azure service controls, threat mappings, a test runbook, and a standard-library Python authorization example. Azure lab validation remains pending.
 
+## New security architecture releases · Agentic AI V2 + Governed MLOps V2
+
+| Secure Agentic AI V2 | Governed Azure AI / MLOps V2 |
+|---|---|
+| [![Agentic AI trust boundaries](assets/02-agentic-ai-trust-boundaries.svg)](02-secure-agentic-ai/README.md) | [![MLOps trust boundaries](assets/03-mlops-trust-boundaries.svg)](03-governed-ai-mlops/README.md) |
+| [Architecture, policies, independent approvals, ATLAS and tests](02-secure-agentic-ai/README.md) | [Data/model supply-chain, digest-bound promotion, ATLAS and tests](03-governed-ai-mlops/README.md) |
+
+**Maturity:** Reference designs and synthetic offline policy checks only. No live Azure ML, Foundry, or Copilot Studio validation evidence is implied.
+
 ## Architecture library
 
 <table>
@@ -139,6 +148,7 @@ See the [RAG negative-security validation plan](01-secure-enterprise-rag/validat
 
 - [x] Create architecture library, navigation, gallery, and first-pass documentation
 - [x] Publish scalable SVG architecture preview graphics
+- [x] Expand Secure Agentic AI and Governed MLOps to Version 2 technical reference packages
 - [ ] Review Azure-specific configuration and feature status against official documentation
 - [ ] Add full technical diagrams with explicit network and trust boundaries
 - [ ] Build a minimal Secure RAG lab with repeatable deployment instructions
