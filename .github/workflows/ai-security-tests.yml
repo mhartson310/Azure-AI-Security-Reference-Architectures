@@ -1,0 +1,43 @@
+name: AI Security Reference Tests
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ai-security-tests.yml"
+      - "01-secure-enterprise-rag/lab/**"
+      - "02-secure-agentic-ai/lab/**"
+      - "03-governed-ai-mlops/lab/**"
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-security-tests:
+    name: ${{ matrix.architecture }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - architecture: Secure Enterprise RAG
+            lab: 01-secure-enterprise-rag/lab
+          - architecture: Secure Agentic AI
+            lab: 02-secure-agentic-ai/lab
+          - architecture: Governed AI and MLOps
+            lab: 03-governed-ai-mlops/lab
+    defaults:
+      run:
+        working-directory: ${{ matrix.lab }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run synthetic offline security policy tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
