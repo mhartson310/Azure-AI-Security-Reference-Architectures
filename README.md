@@ -78,6 +78,14 @@ This repository is a practical, security-first reference library developed by **
   </tr>
 </table>
 
+## Relationship to the standalone Secure RAG implementation
+
+This repository is the **architecture and governance source** for Secure RAG, Secure Agentic AI, Governed MLOps, and Azure AI FinOps. It owns trust-boundary diagrams, threat models, architecture decision records, control matrices, and validation requirements.
+
+For **hands-on Secure Enterprise RAG implementation**, see the companion [Azure Secure Enterprise RAG repository](https://github.com/mhartson310/Azure-Secure-Enterprise-RAG), which contains a [FastAPI application](https://github.com/mhartson310/Azure-Secure-Enterprise-RAG/tree/main/app), [Bicep/deployment guidance](https://github.com/mhartson310/Azure-Secure-Enterprise-RAG/tree/main/deploy), [security test code](https://github.com/mhartson310/Azure-Secure-Enterprise-RAG/tree/main/tests), and [Sentinel monitoring artifacts](https://github.com/mhartson310/Azure-Secure-Enterprise-RAG/tree/main/sentinel).
+
+**Scope distinction:** Blueprint ≠ deployed evidence. The reference library defines what to verify; the implementation repository contains the code and tests that must be run and evidenced. Neither repository currently claims an independently verified production deployment.
+
 ## What each architecture provides
 
 | Deliverable | Practical purpose |
